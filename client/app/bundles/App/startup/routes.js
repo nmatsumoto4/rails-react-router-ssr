@@ -18,6 +18,8 @@ export default (
     <Route exact path="/users/sign_in" component={SignIn} />
     <Route exact path="/users/sign_up" component={SignUp} />
     <Route exact path="/users/password/new" component={PasswordNew} />
+    <Route exact path="/users/password" component={PasswordNew} />
+
     <Route exact path="/users/password/edit" component={PasswordEdit} />
 
   </Switch>
