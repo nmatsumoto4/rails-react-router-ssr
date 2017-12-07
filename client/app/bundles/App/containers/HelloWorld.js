@@ -5,11 +5,6 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 class HelloWorld extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-
   render() {
     return (
       <div>
